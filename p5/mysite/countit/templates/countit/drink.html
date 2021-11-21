@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>drinks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <style>
+        body {
+            background-image: url("https://www.simplyrecipes.com/thmb/s-JaZ-tAswSA7wjqi6l2zG134vs=/1800x1200/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__06__mojito-horiz-a-1800-fe577b701d6c4f8cbe8e33098481c1e5.jpg");
+            background-size:100%;
+	        font-family:cursive;
+        }
+    </style>
+    
+</head>
+
+   
+<body>
+    <form action="/drinks/" method="post">{% csrf_token %}
+        <h1>what you usualy drink?</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Cherry juice</label>
+            <input type="number" class="form-control" name="Cherry juice" id="Cherry juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Pineapple juice</label>
+            <input type="number" class="form-control" name="pineapple juice" id="pineapple juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+            <label for="drinks">Pomegranate juice</label>
+            <input type="number" class="form-control" name="Pomegranate juice" id="Pomegranate juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Mango juice</label>
+            <input type="number" class="form-control" name="mango juice" id="mango juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Orange juice</label>
+            <input type="number" class="form-control" name="Orange juice" id="Orange juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Apple juice</label>
+            <input type="number" class="form-control" name="Apple juice" id="Apple juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Cantaloupe juice</label>
+            <input type="number" class="form-control" name="Cantaloupe juice" id="Cantaloupe juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Coconut water</label>
+            <input type="number" class="form-control" name="Coconut water" id="Coconut water" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Carrot juice</label>
+            <input type="number" class="form-control" name="Carrot juice" id="Carrot juice" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Tea</label>
+            <input type="number" class="form-control" name="Tea" id="Tea" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-6">
+                <label for="drinks">Beer</label>
+            <input type="number" class="form-control" name="Beer" id="Beer" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Dough</label>
+            <input type="number" class="form-control" name="Dough" id="Dough" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Soda</label>
+            <input type="number" class="form-control" name="Soda" id="Soda" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Coffee</label>
+            <input type="number" class="form-control" name="Coffee" id="Coffee" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Nescafé</label>
+            <input type="number" class="form-control" name="Nescafé" id="Nescafé" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Milk</label>
+            <input type="number" class="form-control" name="Milk" id="Milk" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="drinks">Coffee Mix</label>
+            <input type="number" class="form-control" name="Coffee Mix" id="Coffee Mix" aria-describedby="helpId"placeholder="number of glasses?">
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+</body>
+</html>
