@@ -10,7 +10,7 @@ def home_view(request):
     return render(request,'countit/index.html')
 
 def show_form(request):
-    global name, age, gender, weight, calories,bv ,ldv,sv, drv
+    global name, age, gender, weight, calories,bv ,ldv,sv, drv,dv
     if request.method == "GET":
         return  render(request, 'countit/form.html')
     if request.method == "POST":
@@ -20,7 +20,7 @@ def show_form(request):
         age = data['age']
         weight = data['weight']
         gender = data['gender']
-        #bv , ldv , sv , drv = False , False , False , False , False
+        bv , ldv , sv , drv , dv = False , False , False , False , False
         return  HttpResponseRedirect('/breakfast/')
 
 def breakfast(requst):
